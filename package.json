@@ -1,0 +1,25 @@
+{
+  "name": "Index",
+  "version": "1.0.0",
+  "description": "Chop up the soul Kanye",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "concurrently \"http-server -p 1234 -c-1\" \"node-sass --watch --recursive assets/sass --output assets/css --output-style compact\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rey/index.git"
+  },
+  "author": "Rey Dhuny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rey/index/issues"
+  },
+  "homepage": "https://github.com/rey/index",
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "http-server": "^0.11.1",
+    "concurrently": "^4.1.0"
+  }
+}
